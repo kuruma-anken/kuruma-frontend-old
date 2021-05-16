@@ -5,6 +5,7 @@ import svelte from "@sveltejs/vite-plugin-svelte";
 export default defineConfig({
   plugins: [svelte()],
   optimizeDeps: {
-    exclude: ["svelte-apollo", "svelte-navigator"]
+    include: ["deepmerge"],
+    exclude: ["svelte-apollo", "svelte-navigator", "svelte-i18n"]
   }
 });

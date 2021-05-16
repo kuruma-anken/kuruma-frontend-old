@@ -10,6 +10,7 @@
     Dashboard
   } from "../icons/lib/index";
   import { Link } from "svelte-navigator";
+  import { _ } from "svelte-i18n";
 </script>
 
 <nav class="outer-sidebar">
@@ -17,11 +18,13 @@
     <Link to="/">車</Link>
   </div>
   <div class="outer-sidebar__menu">
-    <OuterSidebarLink to="/" title="Vehicles"><Car /></OuterSidebarLink>
+    <OuterSidebarLink to="/" title="Vehicles" titleKey="pages.vehicles"
+      ><Car /></OuterSidebarLink
+    >
     <OuterSidebarLink to="/dashboard" title="Dashboard"
       ><Dashboard /></OuterSidebarLink
     >
-    <OuterSidebarLink to="/clients" title="Clients"
+    <OuterSidebarLink to="/clients" title="Clients" titleKey="pages.clients"
       ><UserTie /></OuterSidebarLink
     >
     <OuterSidebarLink to="/employees" title="Employees"
