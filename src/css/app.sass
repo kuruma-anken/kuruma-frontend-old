@@ -16,7 +16,7 @@ body
   background: var(--body-bg)
   color: var(--body-fg)
 
-h1, h2, h3
+h1, h2, h3, .title
   color: var(--emph-text)
 
 table.table
@@ -34,3 +34,10 @@ table.table
     tbody tr:not(.is-selected)
       &:hover
         background: var(--surface-hover-bg)
+
+.input, select.select
+  background: var(--surface-bg)
+  color: var(--surface-fg)
+
+.label
+  color: var(--emph-text)

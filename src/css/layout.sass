@@ -22,8 +22,11 @@
       background: none
       border: 0
       outline: 0
-      color: $text
+      color: var(--body-fg)
       font-size: 1em
+
+      &::placeholder
+        color: var(--placeholder)
 
       &:placeholder-shown
         color: inherit
