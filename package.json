@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.3.18",
+    "clsx": "^1.1.1",
     "graphql": "^15.5.0",
     "graphql-tag": "^2.12.4",
     "svelte-apollo": "^0.4.0",
