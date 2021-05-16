@@ -1,3 +1,4 @@
+@import palette
 @import variables
 @import bulma
 @import login
@@ -10,3 +11,26 @@
 
 :focus
   outline: none
+
+body
+  background: var(--body-bg)
+  color: var(--body-fg)
+
+h1, h2, h3
+  color: var(--emph-text)
+
+table.table
+  background: var(--surface-bg)
+  color: var(--surface-fg)
+
+  thead th
+    color: var(--emph-text)
+
+  &.is-bordered
+    tbody td, thead th
+      border-color: var(--body-bg)
+
+  &.is-hoverable
+    tbody tr:not(.is-selected)
+      &:hover
+        background: var(--surface-hover-bg)

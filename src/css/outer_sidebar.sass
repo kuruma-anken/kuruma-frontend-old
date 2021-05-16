@@ -7,7 +7,7 @@
 
   &__branding
     a, a:visited
-      color: $primary
+      color: var(--primary)
 
   &__branding, &__link
     display: flex
@@ -18,13 +18,13 @@
     outline: none
     background: none
     cursor: pointer
-    color: $outer-sidebar-icon-inactive-color
+    color: var(--surface-fg)
     flex-direction: column
     transition: .1s ease-in-out
 
     &:hover
-      background: darken($outer-sidebar-bg, 5%)
-      color: darken($outer-sidebar-icon-inactive-color, 5%)
+      background: var(--body-hover)
+      color: var(--surface-fg)
 
   &__branding
     height: $header-height
@@ -55,3 +55,4 @@
       color: $outer-sidebar-icon-active-color
       &:hover
         color: $outer-sidebar-icon-active-color
+        background: var(--surface-hover-bg)
