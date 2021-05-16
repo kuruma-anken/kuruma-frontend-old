@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import { useNavigate, useFocus } from "svelte-navigator";
   import { useAuth } from "../graphql/queries/userQueries";
   const user = useAuth();

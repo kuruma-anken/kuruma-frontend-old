@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import { useNavigate } from "svelte-navigator";
   import Loader from "../components/Loader.svelte";
   import OuterSidebar from "./OuterSidebar.svelte";

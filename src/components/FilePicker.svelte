@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import { Upload } from "../icons/lib";
   export let label: string = "Choose a file...";
   export let onChange: ((e: any) => any) | undefined = undefined;

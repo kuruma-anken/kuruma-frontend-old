@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import { onMount } from "svelte";
   import { useUploadVehicleAttachment } from "../graphql/apiUploader";
   import type { ID } from "../graphql/interfaces/common";

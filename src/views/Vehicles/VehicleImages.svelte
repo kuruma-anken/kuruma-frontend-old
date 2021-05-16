@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import VehicleAttachmentThumbnail from "./VehicleAttachmentThumbnail.svelte";
   import type { Vehicle } from "../../graphql/queries/vehicleQueries";
   import FilePicker from "../../components/FilePicker.svelte";

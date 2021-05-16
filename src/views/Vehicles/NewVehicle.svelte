@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import InputField from "../../components/InputField.svelte";
   import CarMakerSelect from "./CarMakerSelect.svelte";
   import VehiclesLayout from "./VehiclesLayout.svelte";

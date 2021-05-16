@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import { Link, useLocation } from "svelte-navigator";
   const location = useLocation();
   export let to: string;

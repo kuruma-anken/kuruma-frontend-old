@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import { Link, useLocation } from "svelte-navigator";
   import clsx from "clsx";
   const location = useLocation();

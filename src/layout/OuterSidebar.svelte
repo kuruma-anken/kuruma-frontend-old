@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import OuterSidebarLink from "./OuterSidebarLink.svelte";
   import { useSignOutMutation } from "../graphql/queries/userQueries";
   const signOut = useSignOutMutation();

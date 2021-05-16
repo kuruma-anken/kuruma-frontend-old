@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import { useGetVehicleQuery } from "../../graphql/queries/vehicleQueries";
   import type { Vehicle } from "../../graphql/queries/vehicleQueries";
   import { useParams } from "svelte-navigator";

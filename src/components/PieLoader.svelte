@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   export let size = 250;
   export let progress: number | null = null;
   const half = size / 2;

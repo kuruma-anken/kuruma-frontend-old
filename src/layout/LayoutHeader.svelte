@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import { onDestroy, onMount } from "svelte";
   import clsx from "clsx";
   import { useLocation, useNavigate } from "svelte-navigator";

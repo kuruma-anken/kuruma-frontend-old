@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import type { VehicleAttachment } from "../../graphql/queries/vehicleQueries";
 
   export let attachment: VehicleAttachment;
